@@ -1,0 +1,27 @@
+body
+{
+    background-color: var(--clr-neutral-100);
+    line-height: 1.5;
+    font-family: system-ui ,sans-serif;
+}
+
+h1,
+h2,
+h3{
+    font-weight: 400;
+}
+
+
+$primary: #81899b;
+$accent: #302e24;
+$warn: #dfa612;
+
+:root {
+  --primary: #{$primary};
+  --accent: #{$accent};
+  --warn: #{$warn};
+}
+
+.color-test{
+    background-color: var(--primary);
+}
